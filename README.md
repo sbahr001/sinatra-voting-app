@@ -1,2 +1,3 @@
 # sinatra-voting-app
-Voting app for Sinatra, based on http://guides.railsgirls.com/sinatra-app
+My first attempt at learning Ruby and Sinatra.
+Voting app in Sinatra, based on http://guides.railsgirls.com/sinatra-app tutorial
