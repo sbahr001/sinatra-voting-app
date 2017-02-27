@@ -1,0 +1,12 @@
+<table class="table table-striped">
+    <tr>
+        <th>Option</th>
+        <th>Votes</th>
+    </tr>
+    <% Choices.each do | id, text | %>
+        <tr>
+            <td><%= text %></td>
+            <td><%= @votes[id] || 0 %></td>
+        </tr>
+    <% end %>
+</table>
